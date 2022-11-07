@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: zxcdaniil.github.io/elements.html
