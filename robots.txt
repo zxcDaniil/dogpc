@@ -1,2 +1,4 @@
 User-agent: *
-Disallow: elements.html
+Disallow: index.html 
+Sitemap: https://zxcdaniil.github.io//sitemap 
+Clean-param: ref /some_dir/get_book.pl
