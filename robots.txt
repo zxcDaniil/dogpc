@@ -1,2 +1,2 @@
 User-agent: Googlebot
-Disallow:elements.html
+Disallow: elements.html
