@@ -1,2 +1,2 @@
 User-agent: Googlebot
-Disallow: zxcdaniil.github.io/elements.html
+Disallow:elements.html
