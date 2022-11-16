@@ -43,6 +43,10 @@ a,
   -o-transition: 0.3s;
   transition: 0.3s;
 }
+.flaticon {
+  margin-max: 10%;
+  src: /img/VK_Blue_Logo_t.png ;
+}
 
 /* line 20, ../../Arafath/CL/CL October/213. Business/HTML/scss/theme-default.scss */
 a:focus,
