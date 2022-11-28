@@ -186,8 +186,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="slider_text ">
-                                <h3> Эксклюзивные предложения <br>
-                                    Для наших клиентов </h3>
+                                <h3>Опрос </h3>
                                 <p>Успейте воспользоваться акцией <br>
                                     до  истечения ее времени.</p>
                                 <div class="video_service_btn">
@@ -323,7 +322,27 @@ VK.Widgets.Comments("vk_comments", {limit: 5, attach: "*"});
             </div>
         </div>
     </div>
+
     <!--/ counter  -->
+<section class="panel panel-danger">
+  <div class="panel-heading">
+    <h3 class="panel-title">
+      Голосование
+    </h3>
+  </div>
+  <div class="panel-body"> 
+    <!-- HTML-структура голосовалки -->
+    <div class="question"></div>
+    <hr>
+    <div id="vote-section">              
+      <form id="vote" action="poll-vote.php" method="POST">
+        <div class="answers"></div>
+        <button type="submit" class="btn btn-default" disabled="disabled">Голосовать</button>
+      </form>
+    </div>
+    <!-- конец HTML-структура -->
+  </div>
+</section>
 
 
     <!-- gallery -->
