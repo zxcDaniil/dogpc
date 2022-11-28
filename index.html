@@ -186,9 +186,30 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="slider_text ">
-                                <h3>Опрос </h3>
-                                <p>Успейте воспользоваться акцией <br>
-                                    до  истечения ее времени.</p>
+                                <form id="form">
+                                    <div class="form-control">
+            <label>
+                Would you recommend GeeksforGeeks
+                to a friend?
+            </label>
+ 
+            <!-- Input Type Radio Button -->
+            <label for="recommed-1">
+                <input type="radio"
+                       id="recommed-1"
+                       name="recommed">Yes</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio"
+                       id="recommed-2"
+                       name="recommed">No</input>
+            </label>
+            <label for="recommed-3">
+                <input type="radio"
+                       id="recommed-3"
+                       name="recommed">Maybe</input>
+            </label>
+        </div>
                                 <div class="video_service_btn">
                                     <a href="#" class="boxed-btn3">Новости</a>
                                 </div>
@@ -322,27 +343,6 @@ VK.Widgets.Comments("vk_comments", {limit: 5, attach: "*"});
             </div>
         </div>
     </div>
-
-    <!--/ counter  -->
-<section class="panel panel-danger">
-  <div class="panel-heading">
-    <h3 class="panel-title">
-      Голосование
-    </h3>
-  </div>
-  <div class="panel-body"> 
-    <!-- HTML-структура голосовалки -->
-    <div class="question"></div>
-    <hr>
-    <div id="vote-section">              
-      <form id="vote" action="poll-vote.php" method="POST">
-        <div class="answers"></div>
-        <button type="submit" class="btn btn-default" disabled="disabled">Голосовать</button>
-      </form>
-    </div>
-    <!-- конец HTML-структура -->
-  </div>
-</section>
 
 
     <!-- gallery -->
