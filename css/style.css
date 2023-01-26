@@ -1376,12 +1376,7 @@ h3 {
 /* line 3, ../../Arafath/CL/CL October/213. Business/HTML/scss/_about.scss */
 .about_area .about_image img {
   width: 100%;
-  srcset="5-320w.png 320w,
-          5-560w.png 560w,
-          example-660w.png 660w"
-          sizes="(max-width: 320px) 280px,
-          (max-width: 660px) 530px,
-          660px"
+  
 }
 
 /* line 7, ../../Arafath/CL/CL October/213. Business/HTML/scss/_about.scss */
